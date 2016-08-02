@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E42BBDD1D49F93C0024A208 /* MLRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E42BBDC1D49F93C0024A208 /* MLRecordEngine.m */; };
+		5E42BBE01D4AF6D50024A208 /* MLRecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E42BBDF1D4AF6D50024A208 /* MLRecordVideoViewController.m */; };
+		5E42BBE21D4B1B4C0024A208 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E42BBE11D4B1B4C0024A208 /* MobileCoreServices.framework */; };
+		5E836C301D49EA5000C45215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E836C2F1D49EA5000C45215 /* main.m */; };
+		5E836C331D49EA5000C45215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E836C321D49EA5000C45215 /* AppDelegate.m */; };
+		5E836C361D49EA5000C45215 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E836C351D49EA5000C45215 /* ViewController.m */; };
+		5E836C391D49EA5000C45215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E836C371D49EA5000C45215 /* Main.storyboard */; };
+		5E836C3B1D49EA5000C45215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E836C3A1D49EA5000C45215 /* Assets.xcassets */; };
+		5E836C3E1D49EA5000C45215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E836C3C1D49EA5000C45215 /* LaunchScreen.storyboard */; };
+		5E836C491D49EA5000C45215 /* MLRecordVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E836C481D49EA5000C45215 /* MLRecordVideoTests.m */; };
+		5E836C541D49EA5000C45215 /* MLRecordVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E836C531D49EA5000C45215 /* MLRecordVideoUITests.m */; };
+		5E836C641D49EA8E00C45215 /* MLRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E836C631D49EA8E00C45215 /* MLRecordProgressView.m */; };
+		5E836C681D49EE1C00C45215 /* MLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E836C671D49EE1C00C45215 /* MLRecordEncoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E836C451D49EA5000C45215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E836C231D49EA5000C45215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E836C2A1D49EA5000C45215;
+			remoteInfo = MLRecordVideo;
+		};
+		5E836C501D49EA5000C45215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E836C231D49EA5000C45215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E836C2A1D49EA5000C45215;
+			remoteInfo = MLRecordVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E42BBDB1D49F93C0024A208 /* MLRecordEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRecordEngine.h; sourceTree = "<group>"; };
+		5E42BBDC1D49F93C0024A208 /* MLRecordEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRecordEngine.m; sourceTree = "<group>"; };
+		5E42BBDE1D4AF6D50024A208 /* MLRecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRecordVideoViewController.h; sourceTree = "<group>"; };
+		5E42BBDF1D4AF6D50024A208 /* MLRecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRecordVideoViewController.m; sourceTree = "<group>"; };
+		5E42BBE11D4B1B4C0024A208 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5E836C2B1D49EA5000C45215 /* MLRecordVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLRecordVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E836C2F1D49EA5000C45215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E836C311D49EA5000C45215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E836C321D49EA5000C45215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E836C341D49EA5000C45215 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E836C351D49EA5000C45215 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E836C381D49EA5000C45215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E836C3A1D49EA5000C45215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E836C3D1D49EA5000C45215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E836C3F1D49EA5000C45215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E836C441D49EA5000C45215 /* MLRecordVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLRecordVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E836C481D49EA5000C45215 /* MLRecordVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLRecordVideoTests.m; sourceTree = "<group>"; };
+		5E836C4A1D49EA5000C45215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E836C4F1D49EA5000C45215 /* MLRecordVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLRecordVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E836C531D49EA5000C45215 /* MLRecordVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLRecordVideoUITests.m; sourceTree = "<group>"; };
+		5E836C551D49EA5000C45215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E836C621D49EA8E00C45215 /* MLRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRecordProgressView.h; sourceTree = "<group>"; };
+		5E836C631D49EA8E00C45215 /* MLRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRecordProgressView.m; sourceTree = "<group>"; };
+		5E836C661D49EE1C00C45215 /* MLRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRecordEncoder.h; sourceTree = "<group>"; };
+		5E836C671D49EE1C00C45215 /* MLRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRecordEncoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E836C281D49EA5000C45215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E42BBE21D4B1B4C0024A208 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E836C411D49EA5000C45215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E836C4C1D49EA5000C45215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E42BBDA1D49F9140024A208 /* MLRecordEngine */ = {
+			isa = PBXGroup;
+			children = (
+				5E42BBDB1D49F93C0024A208 /* MLRecordEngine.h */,
+				5E42BBDC1D49F93C0024A208 /* MLRecordEngine.m */,
+			);
+			name = MLRecordEngine;
+			sourceTree = "<group>";
+		};
+		5E836C221D49EA5000C45215 = {
+			isa = PBXGroup;
+			children = (
+				5E42BBE11D4B1B4C0024A208 /* MobileCoreServices.framework */,
+				5E836C2D1D49EA5000C45215 /* MLRecordVideo */,
+				5E836C471D49EA5000C45215 /* MLRecordVideoTests */,
+				5E836C521D49EA5000C45215 /* MLRecordVideoUITests */,
+				5E836C2C1D49EA5000C45215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E836C2C1D49EA5000C45215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E836C2B1D49EA5000C45215 /* MLRecordVideo.app */,
+				5E836C441D49EA5000C45215 /* MLRecordVideoTests.xctest */,
+				5E836C4F1D49EA5000C45215 /* MLRecordVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E836C2D1D49EA5000C45215 /* MLRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				5E42BBDA1D49F9140024A208 /* MLRecordEngine */,
+				5E836C651D49EDF600C45215 /* MLRecordEncoder */,
+				5E836C611D49EA5E00C45215 /* MLRecordProgressView */,
+				5E836C311D49EA5000C45215 /* AppDelegate.h */,
+				5E836C321D49EA5000C45215 /* AppDelegate.m */,
+				5E836C341D49EA5000C45215 /* ViewController.h */,
+				5E836C351D49EA5000C45215 /* ViewController.m */,
+				5E42BBDE1D4AF6D50024A208 /* MLRecordVideoViewController.h */,
+				5E42BBDF1D4AF6D50024A208 /* MLRecordVideoViewController.m */,
+				5E836C371D49EA5000C45215 /* Main.storyboard */,
+				5E836C3A1D49EA5000C45215 /* Assets.xcassets */,
+				5E836C3C1D49EA5000C45215 /* LaunchScreen.storyboard */,
+				5E836C3F1D49EA5000C45215 /* Info.plist */,
+				5E836C2E1D49EA5000C45215 /* Supporting Files */,
+			);
+			path = MLRecordVideo;
+			sourceTree = "<group>";
+		};
+		5E836C2E1D49EA5000C45215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E836C2F1D49EA5000C45215 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E836C471D49EA5000C45215 /* MLRecordVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E836C481D49EA5000C45215 /* MLRecordVideoTests.m */,
+				5E836C4A1D49EA5000C45215 /* Info.plist */,
+			);
+			path = MLRecordVideoTests;
+			sourceTree = "<group>";
+		};
+		5E836C521D49EA5000C45215 /* MLRecordVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E836C531D49EA5000C45215 /* MLRecordVideoUITests.m */,
+				5E836C551D49EA5000C45215 /* Info.plist */,
+			);
+			path = MLRecordVideoUITests;
+			sourceTree = "<group>";
+		};
+		5E836C611D49EA5E00C45215 /* MLRecordProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				5E836C621D49EA8E00C45215 /* MLRecordProgressView.h */,
+				5E836C631D49EA8E00C45215 /* MLRecordProgressView.m */,
+			);
+			name = MLRecordProgressView;
+			sourceTree = "<group>";
+		};
+		5E836C651D49EDF600C45215 /* MLRecordEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				5E836C661D49EE1C00C45215 /* MLRecordEncoder.h */,
+				5E836C671D49EE1C00C45215 /* MLRecordEncoder.m */,
+			);
+			name = MLRecordEncoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E836C2A1D49EA5000C45215 /* MLRecordVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E836C581D49EA5000C45215 /* Build configuration list for PBXNativeTarget "MLRecordVideo" */;
+			buildPhases = (
+				5E836C271D49EA5000C45215 /* Sources */,
+				5E836C281D49EA5000C45215 /* Frameworks */,
+				5E836C291D49EA5000C45215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLRecordVideo;
+			productName = MLRecordVideo;
+			productReference = 5E836C2B1D49EA5000C45215 /* MLRecordVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E836C431D49EA5000C45215 /* MLRecordVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E836C5B1D49EA5000C45215 /* Build configuration list for PBXNativeTarget "MLRecordVideoTests" */;
+			buildPhases = (
+				5E836C401D49EA5000C45215 /* Sources */,
+				5E836C411D49EA5000C45215 /* Frameworks */,
+				5E836C421D49EA5000C45215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E836C461D49EA5000C45215 /* PBXTargetDependency */,
+			);
+			name = MLRecordVideoTests;
+			productName = MLRecordVideoTests;
+			productReference = 5E836C441D49EA5000C45215 /* MLRecordVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E836C4E1D49EA5000C45215 /* MLRecordVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E836C5E1D49EA5000C45215 /* Build configuration list for PBXNativeTarget "MLRecordVideoUITests" */;
+			buildPhases = (
+				5E836C4B1D49EA5000C45215 /* Sources */,
+				5E836C4C1D49EA5000C45215 /* Frameworks */,
+				5E836C4D1D49EA5000C45215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E836C511D49EA5000C45215 /* PBXTargetDependency */,
+			);
+			name = MLRecordVideoUITests;
+			productName = MLRecordVideoUITests;
+			productReference = 5E836C4F1D49EA5000C45215 /* MLRecordVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E836C231D49EA5000C45215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Langmuir;
+				TargetAttributes = {
+					5E836C2A1D49EA5000C45215 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VVZMNY4HY7;
+					};
+					5E836C431D49EA5000C45215 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5E836C2A1D49EA5000C45215;
+					};
+					5E836C4E1D49EA5000C45215 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5E836C2A1D49EA5000C45215;
+					};
+				};
+			};
+			buildConfigurationList = 5E836C261D49EA5000C45215 /* Build configuration list for PBXProject "MLRecordVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E836C221D49EA5000C45215;
+			productRefGroup = 5E836C2C1D49EA5000C45215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E836C2A1D49EA5000C45215 /* MLRecordVideo */,
+				5E836C431D49EA5000C45215 /* MLRecordVideoTests */,
+				5E836C4E1D49EA5000C45215 /* MLRecordVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E836C291D49EA5000C45215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E836C3E1D49EA5000C45215 /* LaunchScreen.storyboard in Resources */,
+				5E836C3B1D49EA5000C45215 /* Assets.xcassets in Resources */,
+				5E836C391D49EA5000C45215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E836C421D49EA5000C45215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E836C4D1D49EA5000C45215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E836C271D49EA5000C45215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E836C361D49EA5000C45215 /* ViewController.m in Sources */,
+				5E836C641D49EA8E00C45215 /* MLRecordProgressView.m in Sources */,
+				5E836C331D49EA5000C45215 /* AppDelegate.m in Sources */,
+				5E42BBE01D4AF6D50024A208 /* MLRecordVideoViewController.m in Sources */,
+				5E836C301D49EA5000C45215 /* main.m in Sources */,
+				5E836C681D49EE1C00C45215 /* MLRecordEncoder.m in Sources */,
+				5E42BBDD1D49F93C0024A208 /* MLRecordEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E836C401D49EA5000C45215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E836C491D49EA5000C45215 /* MLRecordVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E836C4B1D49EA5000C45215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E836C541D49EA5000C45215 /* MLRecordVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E836C461D49EA5000C45215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E836C2A1D49EA5000C45215 /* MLRecordVideo */;
+			targetProxy = 5E836C451D49EA5000C45215 /* PBXContainerItemProxy */;
+		};
+		5E836C511D49EA5000C45215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E836C2A1D49EA5000C45215 /* MLRecordVideo */;
+			targetProxy = 5E836C501D49EA5000C45215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E836C371D49EA5000C45215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E836C381D49EA5000C45215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E836C3C1D49EA5000C45215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E836C3D1D49EA5000C45215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E836C561D49EA5000C45215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E836C571D49EA5000C45215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E836C591D49EA5000C45215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MLRecordVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.MLRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E836C5A1D49EA5000C45215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MLRecordVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.MLRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E836C5C1D49EA5000C45215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MLRecordVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.MLRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLRecordVideo.app/MLRecordVideo";
+			};
+			name = Debug;
+		};
+		5E836C5D1D49EA5000C45215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MLRecordVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.MLRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLRecordVideo.app/MLRecordVideo";
+			};
+			name = Release;
+		};
+		5E836C5F1D49EA5000C45215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MLRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.MLRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MLRecordVideo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5E836C601D49EA5000C45215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MLRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.MLRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MLRecordVideo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E836C261D49EA5000C45215 /* Build configuration list for PBXProject "MLRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E836C561D49EA5000C45215 /* Debug */,
+				5E836C571D49EA5000C45215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E836C581D49EA5000C45215 /* Build configuration list for PBXNativeTarget "MLRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E836C591D49EA5000C45215 /* Debug */,
+				5E836C5A1D49EA5000C45215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E836C5B1D49EA5000C45215 /* Build configuration list for PBXNativeTarget "MLRecordVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E836C5C1D49EA5000C45215 /* Debug */,
+				5E836C5D1D49EA5000C45215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E836C5E1D49EA5000C45215 /* Build configuration list for PBXNativeTarget "MLRecordVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E836C5F1D49EA5000C45215 /* Debug */,
+				5E836C601D49EA5000C45215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E836C231D49EA5000C45215 /* Project object */;
+}
